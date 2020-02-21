@@ -15,12 +15,19 @@
         "default_icon": "images/puppy.png"
     },
     "permissions": [
-        "tabs"
+        "tabs",
+        "https://service.statushero.com/api/v1/*"
     ],
     "background": {
         "scripts": [
-            "background.js"
+            "background.js",
+            "time.js",
+            "status_hero.js"
         ],
         "persistent": false
+    },
+    "keys": {
+        "status-hero-X-Team-ID": "d163b5aa-2c29-414b-bf36-b8cd019462ec",
+        "status-hero-X-API-Key": "mXW_pMIGOU4TJIiGxWdiOMt8d0QpQ3tKPlUxc6tklcg"
     }
 }
