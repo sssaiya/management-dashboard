@@ -22,8 +22,8 @@
         "scripts": [
             "background.js",
             "time.js",
-            "status_hero.js"
-        ],
+            "status_hero.js",
+            "game.js"        ],
         "persistent": false
     },
     "keys": {
